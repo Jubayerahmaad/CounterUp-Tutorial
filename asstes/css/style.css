@@ -1,0 +1,100 @@
+/* Site Variables link Color, font etc */
+
+:root{
+    --primarycolor : #E61C5D;
+    --graytext : #808080;
+    --blacktext : #112B3C;
+    --whitetext : #fff;
+    --yollow : #FFBD39;
+    --box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+}
+
+/* Comon Css  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    background: #f5f5f5;
+}
+.container {
+    width: 1145px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-cta 
+.primary-btn{
+    background-color: var(--primarycolor);
+    color: var(--whitetext);
+    padding: 18px 24px;
+    border-radius: 45px;
+}
+.primary-text {
+    color: var(--primarycolor);
+}
+.secoundery-text{
+    color: var(--yollow);
+}
+.text-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--blacktext);
+}
+.sub-title{
+    font-size: 16px;
+    color: var(--primarycolor);
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+
+/* About section css start */
+.about-section{
+    padding: 60px 0px;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-contet {
+    padding-left: 118px;
+}
+
+.about-desc{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--graytext);
+    max-width: 442px;
+    margin-top: 24px;
+    line-height: 160%;
+}
+.about-counter{
+    display: flex;
+    justify-content: space-between;
+}
+.count-item {
+    max-width: 100px;
+    margin-top: 24px;
+}
+.count{
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    color: var(--primarycolor);
+}
+.count-title{
+    font-size: 16px;
+    color: var(--graytext);
+    font-weight: 400;
+}
